@@ -1,0 +1,24 @@
+name: Generate Pacman Contribution Graph
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *' # Roda uma vez por dia, à meia-noite
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate Pacman Graph
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate the graph
+        uses: abozanona/pacman-contribution-graph@v1
+        with:
+          github_user_name: LanneFV # Verifique se o seu nome de usuário está correto aqui
+          output_file: output/pacman-contribution-graph.svg
