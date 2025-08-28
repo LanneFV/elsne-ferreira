@@ -14,4 +14,4 @@ jobs:
         uses: LanneFV/github-readme-snake-action@latest
         with:
           color: '#FFC0CB'        # Rosa bebê
-          background: '#800020'   # Vermelho vinho (fundo)
+          background: '#800020'   # Vermelho vinho
