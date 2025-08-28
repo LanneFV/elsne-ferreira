@@ -13,4 +13,4 @@ jobs:
       - uses: platane/snk@v3
         with:
           github_user_name: 'LanneFV' # Seu nome de usuário do GitHub
-          outputs: dist/snake.svg
+          outputs: dist/snake.svg
