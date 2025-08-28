@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *' # Roda uma vez por dia, à meia-noite
+    - cron: '0 0 * * *' 
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate the graph
-        uses: abozanona/pacman-contribution-graph@v1
+        uses: abozanona/pacman-contribution-graph@v2
         with:
-          github_user_name: LanneFV # Verifique se o seu nome de usuário está correto aqui
+          github_user_name: LanneFV
           output_file: output/pacman-contribution-graph.svg
