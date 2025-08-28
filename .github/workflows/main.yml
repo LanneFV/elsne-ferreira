@@ -1,8 +1,6 @@
-name: GitHub Snake animation
-
 on:
   schedule:
-    - cron: '0 * * * *'  # roda a cada hora
+    - cron: '0 * * * *'  
   workflow_dispatch:
 
 jobs:
@@ -13,5 +11,5 @@ jobs:
       - name: Run Snake Script
         uses: LanneFV/github-readme-snake-action@latest
         with:
-          color: '#FFC0CB'        # Rosa bebê
-          background: '#800020'   # Vermelho vinho
+          color: '#FFC0CB'
+          background: '#800020' 
