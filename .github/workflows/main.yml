@@ -1,6 +1,8 @@
+name: Generate Snake Animation
+
 on:
   schedule:
-    - cron: '0 0 * * *'  
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -8,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run Snake Script
-        uses: LanneFV/github-readme-snake-action@latest
+      - uses: platane/snk@v3
         with:
-          color: '#FFC0CB'
-          background: '#800020' 
+          github_user_name: 'LanneFV' # Seu nome de usuário do GitHub
+          outputs: dist/snake.svg
