@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=10B981&size=35&center=true&vCenter=true&width=1000&lines=hey,+Olá!+sou+a+Elane+Ferreira;Computer+science+student)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=10B981&size=35&center=true&vCenter=true&width=1000&lines=Olá!+sou+a+Elane+Ferreira;Computer+science+student)](https://git.io/typing-svg)
 
 <br clear="both">
 
@@ -23,7 +23,7 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LanneFV&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=true&theme=dracula&locale=pt-br&hide_border=true&order=1" height="100" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=LanneFV&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=true&theme=dracula&locale=pt-br&hide_border=true&order=1" height="200" alt="stats graph"  />
 </div>
 
 ###
