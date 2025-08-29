@@ -1,6 +1,6 @@
-<br clear="both">
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=10B981&size=35&center=true&vCenter=true&width=1000&lines=hey,+Olá!+sou+a+Elane+Ferreira;Computer+science+student)](https://git.io/typing-svg)
 
-<h2 align="center">Olá! Meu nome é Elane Ferreira ₊ ⊹₍ᐢᐢ₎ ᰔᩚ</h2>
+<br clear="both">
 
 ###
 
@@ -28,7 +28,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/LanneFV/LanneFV/dist/snake.svg" alt="Snake animation"/>
+<img src="https://raw.githubusercontent.com/LanneFV/LanneFV/output/snake.svg" alt="Snake animation" /> 
 
 ###
 
